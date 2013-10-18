@@ -1,6 +1,6 @@
-name = Custom Views Nth Row Field Handler
-description = Display custom content every nth rows.
-package = Custom
+name = "Custom Views Nth Row Field Handler"
+description = "Display custom content every nth rows."
+package = "Custom"
 core = 7.x
 
 dependencies[] = views
