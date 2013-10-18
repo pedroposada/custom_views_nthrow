@@ -1,0 +1,17 @@
+<?php
+
+/*
+ * Implements hook_views_data().
+ */
+function custom_views_nthrow_views_data() {
+
+  $data['views']['nthrow'] = array(
+    'title' => t('Custom content every nth row'),
+    'help' => t('Display custom text/html every number of rows.'),
+    'field' => array(
+      'handler' => 'custom_views_nthrow_handler_field_nthrow',
+    ),
+  );
+  
+  return $data;
+}

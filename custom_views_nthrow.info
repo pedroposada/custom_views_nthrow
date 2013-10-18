@@ -1,0 +1,10 @@
+name = Custom Views Nth Row Field Handler
+description = Display custom content every nth row.
+package = Custom
+core = 7.x
+
+dependencies[] = views
+
+
+; Views Handlers
+files[] = includes/views/custom_views_nthrow_handler_field_nthrow.inc
