@@ -1,5 +1,15 @@
 <?php
 
+/**
+ * Implements hook_views_api().
+ */
+function custom_views_nthrow_views_api() {
+  return array(
+    'api' => '3.0',
+    'path' => drupal_get_path('module', 'custom_views_nthrow') . '/includes/views',
+  );
+}
+
 /*
  * Implements hook_views_data().
  */
