@@ -1,5 +1,7 @@
 <?php
 
+// put this inside custom_views_nthrow / includes / views / custom_views_nthrow_handler_field_nthrow.inc
+
 /**
  * @file
  * Definition of views_handler_field_custom.
