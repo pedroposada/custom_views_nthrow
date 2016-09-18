@@ -1,0 +1,6 @@
+{
+  "name": "Custom views nthrow",
+  "tagline": "Custom field for views with optional nth row setting",
+  "body": "custom_views_nthrow\r\n===================\r\n\r\nCustom field for views with optional nth row setting.\r\n\r\nThis is a Drupal 7 module that provides a custom field for views. The custom field behaves similiar to \r\n\"Global Custom Text\" field but comes with an option to display on every X number of rows.\r\n\r\nThe main use case of this field is if you need to present a list of content with advertisement \r\nevery X number of articles. Alternate custom content every X number of rows in any view. This is usually\r\nachieved using TPL files. This module lets you do it on the fly with no code change required.\r\n\r\n\r\nHow to use:\r\n\r\n- Create a new View\r\n- Add a new field, under Global fields select \"Global: Custom content every nth row\".\r\n- Enter the amount of rows to alternate this field in.\r\n- In the preview you should see that your custom field appears every X number of rows.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
